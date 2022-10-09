@@ -3,56 +3,27 @@ html, body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #0a0acd;
-	/*background-color: white;*/
-
-	background-image: linear-gradient(
-		58.15deg, 
-		rgb(240, 16, 2) 7.449999999999999%, 
-		rgb(255, 15, 0) 8.63%, 
-		rgba(255, 255, 255, 0) 47.449999999999996%, 
-		rgba(255, 255, 255, 0) 66.27%, 
-		rgb(0, 113, 208) 100%);
+	background-color: white;
 }
 
 .wrapper {
 	user-select: none;
-	background-image: url(/images/lady-liberty-bg.svg);
-	/*background-size: contain;*/
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-position: top left;
 
 	width: 100vw;
 	height: 100vh;
 
 	font-family: 'Verdana', 'Arial', serif;
-	color: white;
-}
-
-.wrapper h1 {
-	text-align: center;
-	/*text-transform: uppercase;*/
-
-	font-size: 20vw;
-	line-height: 20vw;
-	padding-top: 20vh;
-	margin-bottom: 0;
-	letter-spacing: -0.028em;
-	text-rendering: optimizeLegibility;
-}
-
-.wrapper h2 {
-	text-align: right;
-	padding: 0 15%;
-
-	font-size: 2em;
-	line-height: 1.251em;
-	font-style: italic;
-	letter-spacing: 0.15em;
-	text-rendering: optimizeLegibility;
+	color: black;
 }
 
 .hidden {
 	display: none;
+}
+
+.wrapper {
+	text-align: center;
+	/*text-transform: uppercase;*/
+	padding-top: 20vh;
+	margin-bottom: 0;
+	text-rendering: optimizeLegibility;
 }
